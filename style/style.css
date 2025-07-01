@@ -39,6 +39,15 @@ body {
   color: #7f8c8d;
   font-size: 1rem;
 }
+
+.table-body .table-row:nth-child(odd) {
+  background-color: #f9f9f9; /* light gray for odd rows */
+}
+
+.table-body .table-row:nth-child(even) {
+  background-color: #ffffff; /* white for even rows */
+}
+
 /* ---------- FILTER PANEL (shorter) ---------- */
 .filter-section {
   background: rgba(255, 255, 255, 0.95);
@@ -135,6 +144,14 @@ body {
   box-shadow: 0 6px 24px rgba(0, 0, 0, 0.08);
   transition: 0.25s;
 }
+.mobile-entries .mobile-entry:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.mobile-entries .mobile-entry:nth-child(even) {
+  background-color: #ffffff;
+}
+
 .desktop-floor-card:hover {
   transform: translateY(-4px);
 }
